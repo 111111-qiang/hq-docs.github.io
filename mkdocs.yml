@@ -1,0 +1,20 @@
+site_name: 嵌入式研发文档
+
+site_url: https://hq-docs.github.io/mkdocs‑demo‑docs/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search
