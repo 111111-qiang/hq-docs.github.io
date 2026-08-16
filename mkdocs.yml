@@ -1,6 +1,6 @@
 site_name: 嵌入式研发文档
 
-site_url: https://1111111-qiang.github.io/hq-docs/
+site_url: https://1111111-qiang.github.io/
 
 theme:
   name: material
